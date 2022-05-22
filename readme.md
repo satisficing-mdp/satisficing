@@ -35,7 +35,7 @@ git clone https://github.com/satisficing-mdp/satisficing.git
 cd satisficing
 ```
 
-where you now can easily intall all requirements via
+where you now can easily install all requirements via
 
 ```setup
 pip install -e .
