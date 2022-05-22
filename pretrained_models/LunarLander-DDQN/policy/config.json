@@ -1,0 +1,50 @@
+{
+    "alpha":	0.00025,
+    "batch_size":	32,
+    "double_q_learning":	true,
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x10dcbdcb0>",
+    "epochs":	60,
+    "eval_greedy":	true,
+    "exp_name":	"200510_194030_dqn_ll_vf0-001_exp0-05",
+    "exploration_final_eps":	0.05,
+    "exploration_fraction":	0.5,
+    "exploration_initial_eps":	1.0,
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x15046b110>":	{
+            "epoch_dict":	{},
+            "exp_name":	"200510_194030_dqn_ll_vf0-001_exp0-05",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/Users/malte/Desktop/spinningup/data/200510_194030_dqn_ll_vf0-001_exp0-05/200510_194030_dqn_ll_vf0-001_exp0-05_s0",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/Users/malte/Desktop/spinningup/data/200510_194030_dqn_ll_vf0-001_exp0-05/200510_194030_dqn_ll_vf0-001_exp0-05_s0/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"200510_194030_dqn_ll_vf0-001_exp0-05",
+        "output_dir":	"/Users/malte/Desktop/spinningup/data/200510_194030_dqn_ll_vf0-001_exp0-05/200510_194030_dqn_ll_vf0-001_exp0-05_s0"
+    },
+    "max_ep_len":	1000,
+    "num_test_episodes":	20,
+    "polyak":	0.0,
+    "q_kwargs":	{
+        "hidden_sizes":	[
+            64
+        ]
+    },
+    "q_net":	"core.MLPQFunction",
+    "replay_size":	100000,
+    "save_freq":	10,
+    "seed":	0,
+    "start_steps":	100,
+    "steps_per_epoch":	10000,
+    "update_after":	32,
+    "update_every":	1,
+    "update_target_network_every":	100,
+    "vf_lr":	0.001
+}
